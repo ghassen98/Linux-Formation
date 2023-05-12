@@ -54,4 +54,31 @@ Savoir archiver une arborescence de votre disque.
 
 1. Archivez l’arborescence de votre répertoire personnel.
 2. Archivez l’arborescence de votre répertoire personnel en utilisant la compression gzip.
+3. Compressez un fichier `test.img` que vous créer dans votre répertoire home.
+   Vous pouvez créer rapidement un fichier de taille 2Go en utilisant la commande ```fallocate -l 2G test.img```
+
+4. Compressez le fichier `.bash_history` situé dans votre répertoire home.
+
+5. Visualisez directement le contenu du fichier compressé.
+   
+6. Décompresser le fichier compressé.
+
+## Exercice 7 : 
+### But : ###
+Savoir créer et manipuler des répertoires.
+
+1. Créez un répertoire nommé « repertoire » dans votre répertoire personnel.
+
+2. Créez un sous-répertoire nommé « repertoire2 » dans votre répertoire « repertoire ».
+
+## Exercice 8 : 
+### But : ###
+Savoir copier, déplacer et renommer des fichiers.
+
+1. Copiez le fichier `.bash_history` dans le répertoire nommé « repertoire2 ».
+
+2. Renommez le fichier copié en `mon_historique.txt`.
+
+3. Déplacez le fichier terrelune.txt vers votre répertoire personnel.
+
 
