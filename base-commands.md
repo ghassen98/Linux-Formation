@@ -79,6 +79,18 @@ Savoir copier, déplacer et renommer des fichiers.
 
 2. Renommez le fichier copié en `mon_historique.txt`.
 
-3. Déplacez le fichier terrelune.txt vers votre répertoire personnel.
+3. Déplacez le fichier `mon_historique.txt` vers votre répertoire personnel.
+
+## Exercice 9 : 
+### But : ###
+Supprimer des fichiers et répertoires.
+
+1. Supprimez le répertoire « repertoire2 »
+
+2. Supprimez le répertoire « repertoire »
+
+3. Supprimez le fichier « mon_historique.txt »
+
+
 
 
