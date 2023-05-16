@@ -28,4 +28,26 @@ $ cat fic1.txt fic2.txt
 $ ls –l fic1.txt fic2.txt
 ```
 
+## Exercice 2 : 
+
+### Solution : ###
+
+1. Utilisez une redirection pour écrire dans le fichier ``users-with-bash.txt`` les lignes du fichier ``/etc/passwd`` contenant la chaîne « **/bin/bash** » sans distinction majuscule/minuscule.
+
+```
+$ grep -i /bin/bash /etc/passwd > users-with-bash.txt
+```
+
+2. Affichez le nombre de lignes du fichier ``users-with-bash.txt``.
+
+```
+$ wc -l users-with-bash.txt
+```
+
+3. Affichez le nombre de ligne du fichier ``/etc/passwd`` contenant la chaîne « **/bin/bash** » sans distinction majuscule/minuscule en une seule ligne de commande avec le pipeline.
+
+```
+$ grep -i /bin/bash /etc/passwd | wc –l
+```
+
 
