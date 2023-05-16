@@ -25,3 +25,19 @@ Savoir utiliser le principe de la redirection avec le pipeline.
 
 3. Affichez le nombre de ligne du fichier ``/etc/passwd`` contenant la chaîne « **/bin/bash** » sans distinction majuscule/minuscule en une seule ligne de commande avec le pipeline.
 
+## Exercice 3 : 
+
+### But : ###
+Savoir utiliser le principe de la redirection avec le pipeline. !!!!!!
+
+1. Comptez le nombre de lignes vides du fichier ``.profile`` en utilisant ``grep`` et ``wc``.
+
+2. Comptez le nombre de lignes vides du fichier ``.profile`` en utilisant ``grep –c``.
+
+3. Comptez le nombre de lignes du fichier ``.bash_history`` commençant par une majuscule. Essayez de copier le fichier ``.bash_history``, le renommer en ``test.txt``, l'éditer en ajoutant des majuscules puis réessayer.
+
+4. Comptez le nombre de lignes du fichier ``test.txt`` ne commençant pas par une majuscule.
+
+5. Comptez le nombre de lignes du fichier ``test.txt`` commençant par un chiffre.
+
+
