@@ -28,7 +28,7 @@ Savoir utiliser le principe de la redirection avec le pipeline.
 ## Exercice 3 : 
 
 ### But : ###
-Savoir utiliser le principe de la redirection avec le pipeline. !!!!!!
+Savoir utiliser le principe de la redirection avec le pipeline.
 
 1. Comptez le nombre de lignes vides du fichier ``.profile`` en utilisant ``grep`` et ``wc``.
 

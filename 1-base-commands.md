@@ -18,7 +18,7 @@ Savoir utiliser des utilitaires Linux de base.
 3. Affichez le calendrier du mois de juin de l’année en cours.
 4. Affichez le calendrier du trimestre en cours.
 5. Affichez le calendrier du trimestre en cours avec les lundis en début de semaine.
-6. Affichez le calendrier du mois de septembre 1752.
+6. Affichez le calendrier du mois de septembre 1990.
 
 ## Exercice 3 : 
 ### But : ### 
