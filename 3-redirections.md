@@ -25,6 +25,11 @@ Savoir utiliser le principe de la redirection avec le pipeline.
 
 3. Affichez le nombre de ligne du fichier ``/etc/passwd`` contenant la chaîne « **/bin/bash** » sans distinction majuscule/minuscule en une seule ligne de commande avec le pipeline.
 
+4. Afficher le fichier ``/etc/apt/sources.list`` sans les commentaires et lignes vides.
+
+5. Afficher seulement les adresses IP du fichier hosts.
+
+
 ## Exercice 3 : 
 
 ### But : ###
