@@ -19,7 +19,3 @@ Retrouvez le **PID** affecté à ce processus puis faites le revenir en avant-pl
 Tuez le processus associé à xclock.
 
 **AIDE** : Utilisez les commandes : ``xclock``, ``kill`` et ``man kill``
-
-**NOTE** : La commande ``xclock`` est incluse dans le paquetage « **xorg-x11-apps** » avec Centos 5.
-
-
