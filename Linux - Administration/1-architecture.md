@@ -1,21 +1,28 @@
-# Interpréteur de commande
+# Architecture de Linux
 
 ## Exercice 1 : 
 
 ### But : ### 
-Savoir utiliser les fonctions du Shell.
+Savoir identifier le matériel installé et manipuler les modules de la machine.
 
-1. Affichez le nom du shell que vous utilisez avec votre login.
-2. Affichez les fichiers de votre répertoire qui commencent avec la lettre « t ».
-3. Affichez les fichiers de votre répertoire qui commencent avec la lettre « t » et avec la lettre « e ».
-4. Changez votre shell actuel (bash) pour utiliser le shell ``ksh`` ou ``zsh`` (vous pouvez l'installer avec la commmande `sudo apt install ksh` ou `sudo apt install zsh`)
-5. Affichez le shell que vous utilisez.
-6. Tapez la commande exit pour revenir à votre précédent interpréteur.
-7. Affichez la liste des variables d’environnement.
-8. Affichez l’historique de vos commandes.
-9. Rappelez la 2e commande de votre historique.
-10. Rappelez la dernière commande de votre historique.
-11. Créez un alias qui permet d’afficher tous les fichiers (y compris les fichiers cachés).
-12. Supprimez l’alias que vous venez de créer.
-13. Créez un alias « dir » pour la commande « ls –l ».
-14. Placez cet alias « dir » dans le fichier .bashrc dans la section #user specific.
+1. Retrouver les informations suivantes :
+   - Quantité de mémoire installée.
+   - Le type de processeur ainsi que sa fréquence.
+   - Le type de disque et sa capacité.
+   - L’interface réseau et son type.
+
+**AIDE** : Utilisez les commandes ``dmesg``, ``lspci``, ou les informations disponibles avec le répertoire « /proc ».
+
+2. Retrouver les informations suivantes :
+   - Les interruptions occupées par des périphériques de type PCI.
+   - Les interruptions occupées au niveau de toute la machine.
+   - Les adresses I/O occupées au niveau de toute la machine.
+
+**AIDE** : Utilisez les commandes ``dmesg``, ``lspci``, ou les informations disponibles avec le répertoire « /proc ».
+
+3. Affichez les modules utilisés et non utilisés de la machine.
+4. Supprimez un module figurant dans la liste (non utilisé !)
+5. Rechargez le module.
+
+**AIDE** : Utilisez ``lsmod``, ``modprobe`` ainsi que les informations disponibles avec le répertoire « /proc ».
+
