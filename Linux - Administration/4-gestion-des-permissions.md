@@ -1,21 +1,33 @@
-# Gestion des tâches
+# Gestion des permissions
 
 ## Exercice 1 : 
 
 ### But : ### 
-Savoir programmer des tâches.
+Savoir manipuler les propriétés et les droits des fichiers et des répertoires.
 
-1. En ligne de commande, planifiez l’affichage de la date dans une minute.
+1. Donnez et expliquez les droits du fichier ``.bashrc`` situé dans votre répertoire *home*.
 
-**AIDE** : Utilisez les commandes : ``at`` et ``mail``.
+2. Dupliquez le fichier ``.bashrc``, renommez le en ``fichier1`` puis changez ses droits d'accès pour empêcher la lecture pour les utilisateurs « **autres** ».
 
-2. Avec ``cron``, planifiez l’affichage de la date que vous redirigerez dans un fichier à toutes les minutes.
+3. Expliquez les notations suivantes
+ - notation ``755``.
+ - notation ``700``.
+ - notation ``640``.
+ - notation ``440``.
 
-**AIDE** : Utilisez les commandes : ``crontab`` et ``man 5 crontab``.
+**Note** : Rappel r=4, w=2 et x=1
 
-**NOTE** : Pour permettre à un utilisateur non-root d'utiliser les outils cron, il faut lui ajouter au fichier ``/etc/cron.allow``
+4. Modifier les permissions de votre répertoire personnel pour autoriser
+l’accès aux utilisateurs « autres » (n’étant pas du groupe
+ou propriétaire).
+    
+    Modifier les permissions de votre répertoire personnel pour interdire
+l’accès à la catégorie des utilisateurs « autres ».
 
-```
-touch /etc/cron.allow
-echo "techno" > /etc/cron.allow
-```
+5. Modifiez le propriétaire du fichier ``fichier1`` à « **bin** ».
+    
+    Modifiez le groupe du fichier ``fichier1`` à « **daemon** ».
+    
+    Vérifiez avec la commande ``ls`` le propriétaire et le groupe du fichier ``fichier1``.
+    
+    Remettre le fichier ``fichier1`` avec le propriétaire et le groupe  original (``techno.techno``).
