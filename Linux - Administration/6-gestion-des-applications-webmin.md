@@ -21,7 +21,8 @@ Savoir manipuler le gestionnaire de paquages APT et installer Webmin.
 
 8. Si vous avez un parefeu actif, ajoutez une règle pour autoriser l'accès au port 10000/tcp utilisé par Webmin.
 
-9. Changez le mot de passe root de Webmin en utilisant le script ``/usr/share/webmin/changepass.pl``.
+9. Changez le mot de passe ``root`` de Webmin en utilisant le script ``/usr/share/webmin/changepass.pl``.
 
 10. Accédez au tableau de bord Webmin en utilisant votre navigateur web via ``https://[your server's IP]:10000/``.
 
+11. Naviguez entre les différentes sections de l'interface de Webmin pour découvrir les outils et les fonctionnalités.
