@@ -82,3 +82,5 @@ _EOF_
    - Traitement de la boucle : la lettre « H » lance la fonction ``info-html``.
    - Traitement de la boucle : la lettre « q » ou « Q » sort du script.
 
+7. Partir un simple seuveur Http qui publie la page **informations-machine.html**.
+
