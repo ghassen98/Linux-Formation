@@ -33,7 +33,7 @@ Le script affiche quelques informations de la machine à l’écran et génère 
 
     [U] informations sur l’espace disque utilise par les usagers.
 
-    [H] ecrire toutes ces informations vers informations-machine.html.
+    [H] ecrire toutes ces informations vers index.html.
 
     [Q] quitter le script.
 
@@ -44,19 +44,19 @@ Le script affiche quelques informations de la machine à l’écran et génère 
 5. Écrire la section des fonctions du script « ``informations-machine`` ».
    - Écrivez la fonction « ``info-systeme`` » qui donne les informations sur le système d’exploitation utilisé. (Utilisez la commande : « ``uname –a`` ».)
    - Écrivez la fonction « ``info-reseau`` » qui affiche les paramètres des interfaces réseaux du système.
-   (Utilisez la commande : « ``/sbin/ip a|grep inet|cut –d" " –f6,11`` ».)
+   (Utilisez la commande : « ``/sbin/ip a | grep inet | cut –d" " –f6,11`` ».)
    - Écrivez la fonction « ``info-actif`` » qui affiche depuis quand le système fonctionne.
    (Utilisez la commande : « ``uptime`` ».)
    - Écrivez la fonction « ``info-disques`` » qui donne les informations sur l’espace disque.
    (Utilisez la commande : « ``df –h`` ».)
    - Écrivez la fonction « ``info-usagers`` » qui donne les informations sur l’espace disque utilisé par les usagers.
    (Utilisez la commande : « ``du –hs *`` » dans le répertoire ``/home``.)
-   - Écrivez la fonction « ``info-html`` » qui écrit l’ensemble de ces informations vers un page html nommée « **informations-machine.html** ».
+   - Écrivez la fonction « ``info-html`` » qui écrit l’ensemble de ces informations vers un page html nommée « **index.html** ».
    (Inspirez vous du code suivant qui utilise la fonction ``info-html``.)
    Ajoutez les autres fonctions.
 
 ```
-cat << _EOF_ > informations-machine.html
+cat << _EOF_ > index.html
 <html>
 <head>
 <title>$TITRE</title>
@@ -82,5 +82,6 @@ _EOF_
    - Traitement de la boucle : la lettre « H » lance la fonction ``info-html``.
    - Traitement de la boucle : la lettre « q » ou « Q » sort du script.
 
-7. Partir un simple seuveur Http qui publie la page **informations-machine.html**.
+7. Essayez d'exécuter le script. Débuggez et corrigez d'éventuelles erreurs si ça existe.
 
+8. Partir un simple seuveur Http qui publie la page **index.html** puis y accéder à travers vote navigateur Web.
