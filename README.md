@@ -1,6 +1,6 @@
-# Linux-Formation
+# Formations Linux
 
-Ce repos contients des exercices pratiques pour deux formations Linux :
+Ce repos contient des exercices pratiques pour les deux formations Linux :
 
  - ## Linux - Les essentiels
 
